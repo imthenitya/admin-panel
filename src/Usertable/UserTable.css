@@ -1,0 +1,49 @@
+.usertable .searchBox{
+    width:70%;
+    margin: 20px
+}
+.usertable table {
+    margin-top: 20px;
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    overflow-x: auto;
+}
+.usertable table tr{
+    border-bottom: solid 1px #dee2e6;
+}
+.usertable td{
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+.usertable th{
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+.usertable img{
+    cursor: pointer;
+}
+
+.usertable .btn {
+    height: 38px;
+    width: 142px;
+    border: 1px solid;
+    border-radius: 3px;
+    background-color: #ee5b35;
+    color: #fff;
+    cursor: pointer;
+    outline: auto;
+}
+@media only screen and (max-width: 767px) {
+    .usertable table {
+        margin-top: 20px;
+        font-size: 15px;
+        width: 100%;
+        margin-bottom: 1rem;
+        color: #212529;
+        display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    }
+  }
